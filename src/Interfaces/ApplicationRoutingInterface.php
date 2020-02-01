@@ -3,5 +3,5 @@ namespace Waxwing\Interfaces;
 
 interface ApplicationRoutingInterface
 {
-    function setRouting(callable $callback, string $cacheFile = null): void;
+    function setRouting(ApplicationRoutingCallbackInterface $callback, string $cacheFile = null): void;
 }
