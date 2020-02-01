@@ -11,8 +11,5 @@ final class RouteCollector extends FRRouteCollector
     {
         $route = $this->currentGroupPrefix . $route;
         $routeDatas = $this->routeParser->parse($route);
-
-        print_r($this->currentGroupPrefix);
-        print_r($routeDatas);
     }
 }
