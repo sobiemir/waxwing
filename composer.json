@@ -1,8 +1,9 @@
 {
     "name": "aculo/waxwing",
-    "description": "Http request code generator",
+    "description": "HTTP request code generator",
     "license": "MIT",
     "require": {
+        "php": "^7.3",
         "nikic/fast-route": "^1.3"
     }
 }
