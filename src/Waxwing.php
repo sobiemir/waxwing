@@ -1,4 +1,5 @@
 <?php
+
 namespace Waxwing;
 
 use FastRoute\DataGenerator\GroupCountBased;

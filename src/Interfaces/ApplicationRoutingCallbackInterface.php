@@ -1,4 +1,5 @@
 <?php
+
 namespace Waxwing\Interfaces;
 
 use FastRoute\RouteCollector;
