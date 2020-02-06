@@ -11,5 +11,7 @@ interface ActionDescriptorInterface
     function setBodyDescriptor(string $class, bool $required = true, array $availableParsers = null): void;
     function getBodyParsers(): array;
     function getBodyClass(): string;
+    function setResponseModel(string $model): void;
+    function getResponseModel(): string;
     function isBodyRequired(): bool;
 }
