@@ -13,4 +13,5 @@ interface ActionDescriptorInterface
     function setResponseDescriptor(string $class, int $responseCode = 200, array $availableRenderers = null): void;
     function getResponseRenderers(): array;
     function getResponseClass(): string;
+    function getResponseCode(): int;
 }
