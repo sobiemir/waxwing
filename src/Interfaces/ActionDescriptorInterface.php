@@ -10,7 +10,7 @@ interface ActionDescriptorInterface
     function getBodyParsers(): array;
     function getBodyClass(): string;
     function isBodyRequired(): bool;
-    function setResponseDescriptor(string $class, array $availableRenderers = null): void;
+    function setResponseDescriptor(string $class, int $responseCode = 200, array $availableRenderers = null): void;
     function getResponseRenderers(): array;
     function getResponseClass(): string;
 }
