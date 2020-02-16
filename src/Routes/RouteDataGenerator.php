@@ -109,7 +109,6 @@ class RouteDataGenerator implements DataGenerator
                 $regex, $httpMethod
             ));
         }
-
         $this->methodToRegexToRoutesMap[$httpMethod][$regex] = new Route(
             $httpMethod, $handler, [$regex, $routeData], $variables
         );
